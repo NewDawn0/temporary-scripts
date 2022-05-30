@@ -1,0 +1,17 @@
+#Install rofi with
+sudo pacman -S rofi calc cmatrix python-pywal
+sudo pacman -S ttf-iosevka-nerd ttf-icomoon-feather
+
+# rofi
+cd $HOME/git
+git clone --depth=1 https://github.com/adi1090x/rofi.git
+cd rofi
+chmod +x setup.sh
+./setup.sh
+
+# polybar
+cd $HOME/git
+git clone --depth=1 https://github.com/adi1090x/polybar-themes.git
+cd polybar-themes
+chmod +x setup.sh
+./setup.sh
